@@ -121,9 +121,12 @@ Join the telegram [support chat 💬](https://t.me/joinchat/KByvmRe5wkR-8F_zz6Aj
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/scaffold-eth/scaffold-eth)
 
-#updating with main scaffold-eth repo
+---
+
+# updating with main scaffold-eth repo
 
 to pull the latest commits from the main scaffold-eth repo, run:
 ```bash
+git fetch upstream
 git rebase upstream/master
 ```
